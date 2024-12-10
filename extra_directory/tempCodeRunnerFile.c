@@ -1,25 +1,23 @@
-#include<stdio.h>
-// int main( ){
-// int a[5],i,j,temp;
-// printf("Enter the 5 array elements :\n");
-// for(i=0;i<5;i++){
-// scanf("%d",&a[i]); // Read and store values in array
-// }
-// // Perform the sorting using a bubble sort algorithm
-// for(i=0;i<5;i++)
-// {
-// for(j=i+1;j<5;j++)
-// {
+/ int main() {
+//     int rows = 6; // Number of rows
+//     int i, j;
+//     for (i = 1; i <= rows; i++) {
+//         // Print leading spaces
+//         for (j = 1; j <= rows - i; j++) {
+//             printf("  "); // Two spaces for alignment
+//         }
 
-// // Compare elements and swap them
-// if(a[i]>a[j]){
-// temp=a[i]; //swap two elements
-// a[i]=a[j];
-// a[j]=temp;
-// }}}
-// printf("Array Elements in Ascending Order is \n");
-// for(i=0;i<5;i++){
-// printf("%d",a[i]);
-// printf("\n");
-// }
+//         // Print the numbers
+//         for (j = 1; j <= i; j++) {
+//             printf("%d", i); // Print the current row number
+//             if (j < i) {
+//                 printf("   "); // Three spaces between numbers
+//             }
+//         }
+
+//         // Move to the next line
+//         printf("\n");
+//     }
+
+//     return 0;
 // }
