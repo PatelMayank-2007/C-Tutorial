@@ -3,7 +3,8 @@
     "files.associations": {
         "main1.C": "cpp",
         "extra.C": "cpp",
-        "area_of_circlr.C": "cpp"
+        "area_of_circlr.C": "cpp",
+        "exaM.C": "cpp"
     },
     "code-runner.saveAllFilesBeforeRun": true,
     "code-runner.runInTerminal": true,

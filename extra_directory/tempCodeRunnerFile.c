@@ -1,23 +1,20 @@
-/ int main() {
-//     int rows = 6; // Number of rows
-//     int i, j;
-//     for (i = 1; i <= rows; i++) {
-//         // Print leading spaces
-//         for (j = 1; j <= rows - i; j++) {
-//             printf("  "); // Two spaces for alignment
+#include <stdio.h>
+// int main(int argc, char const *argv[]) {
+//     int i, j, k;
+//     for (i = 1; i <= 5; i++) {
+//         // Print spaces for alignment
+//         for (k = 5; k > i; k--) {
+//             printf(" ");
 //         }
-
-//         // Print the numbers
+//         // Print the pattern symbols
 //         for (j = 1; j <= i; j++) {
-//             printf("%d", i); // Print the current row number
-//             if (j < i) {
-//                 printf("   "); // Three spaces between numbers
+//             if (i % 2 == 0) {
+//                 printf("@");
+//             } else {
+//                 printf("*");
 //             }
 //         }
-
-//         // Move to the next line
 //         printf("\n");
 //     }
-
 //     return 0;
 // }
